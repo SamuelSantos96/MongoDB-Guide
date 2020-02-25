@@ -15,6 +15,19 @@ Create folder "data" on the "root" (ex.: Hardrive C), with a subfolder "db".
 
 No "path" adicionar "C:\Program Files\MongoDB\Server\4.2\bin".
 
+**Start MongoDB Server**
+```shell
+mongod
+```
+or
+```shell
+mongod -dbpath "C:\Program Files\MongoDB\Server\4.2\bin"
+```
 
+**Start MongoDB Client**
+Need to Start MongoDB Server in another shell before Starting MongoDB Client
+```shell
+mongo
+```
 
 
